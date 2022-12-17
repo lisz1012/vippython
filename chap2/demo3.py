@@ -7,7 +7,7 @@ n3 = 0
 print("n1 =", n1, "n2 =", n2, "n3 =", n3)
 print("n1 type:", type(n1), "n2 type:", type(n2), "n3 type:", type(n3))
 
-# print将以十进制形式输出
+# print将以十进制形式输出。
 print(0b10101111)
 print(0o257)
 print(0xaf)
