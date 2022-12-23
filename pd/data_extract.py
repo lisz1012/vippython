@@ -31,3 +31,12 @@ print(df.loc[:, ['语文', '英语']])  # 提取所有行的语文和英语. , �
 print(df.iloc[:, [0, 2]])
 print(df.loc[:, '数学':])  # 两个:也行
 print(df.iloc[:, 1:])  # 两个:也行
+
+#提取区域数据
+print(df)
+print(df.loc['张三', '数学'], type(df.loc['张三', '数学']))
+print(df.loc[['张三', '王五'], ['语文', '数学']], type(df.loc[['张三', '王五'], ['语文', '数学']])) # 都好的左边是行，右边是列
+print(df.iloc[0, 0])
+print(df.iloc[0:2, 0:2])  # 提取横竖都连续的区域数据
+print(df.iloc[[0, 2], [0, 2]])  # 提取横竖都不连续的区域数据
+print(df.iloc[:, [0]])  # 提取所有行的第0列数据，两个:也行
