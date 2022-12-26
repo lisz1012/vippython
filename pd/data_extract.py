@@ -32,7 +32,7 @@ print(df.iloc[:, [0, 2]])
 print(df.loc[:, '数学':])  # 两个:也行
 print(df.iloc[:, 1:])  # 两个:也行
 
-#提取区域数据
+#提取区域数据.
 print(df)
 print(df.loc['张三', '数学'], type(df.loc['张三', '数学']))
 print(df.loc[['张三', '王五'], ['语文', '数学']], type(df.loc[['张三', '王五'], ['语文', '数学']]))  # 都好的左边是行，右边是列
