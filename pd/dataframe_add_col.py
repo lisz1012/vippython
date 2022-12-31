@@ -2,7 +2,7 @@
 # Creation date and time: 12/28/22 11:00 PM
 import pandas as pd
 pd.set_option('display.unicode.east_asian_width', True)
-# 制作数据
+# 制作数据。
 data = [
     [45, 46, 100],
     [56, 45, 50],
