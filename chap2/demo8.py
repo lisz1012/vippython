@@ -24,7 +24,7 @@ s3 = 'hello'
 print(type(s1), type(f1), type(s2), type(ff), type(s3))
 print(int(s1))
 print(int(f1))
-#print(int(s2)) '76.77'不会被取整，而是直接报错。
+#print(int(s2)) '76.77'不会被取整，而是直接报错
 print(int(ff))
 #print(int(s3))
 
