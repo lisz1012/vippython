@@ -25,3 +25,12 @@ print(df)
 # 按行添加数据: 赵六的成绩为新的一行数据
 df.loc['赵六'] = [61, 78, 92, 80, 88, 77]
 print(df)
+
+# 新建一个DataFrame
+new_df = pd.DataFrame(
+    data={'数学': [67, 69], '语文': [56, 78], '英语': [100, 99], '化学': [89, 91], '历史': [66, 91], '政治': [77, 65]},
+    index=['张丽丽', '王一一']
+)
+print(new_df)
+df = df.append(new_df) # 要赋值
+print(df)
