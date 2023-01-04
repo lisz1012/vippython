@@ -32,5 +32,5 @@ new_df = pd.DataFrame(
     index=['张丽丽', '王一一']
 )
 print(new_df)
-df = df.append(new_df) # 要赋值
+df = df.append(new_df)  # 要赋值!
 print(df)
