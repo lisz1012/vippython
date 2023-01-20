@@ -32,6 +32,6 @@ new_df = pd.DataFrame(
     index=['张丽丽', '王一一']
 )
 print(new_df)
-df = df.append(new_df)  # 要赋值, 因为原值不变.
+df = df.append(new_df)  # 要赋值, 因为原值不变
 
 print(df)
