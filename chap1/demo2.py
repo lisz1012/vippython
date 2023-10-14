@@ -2,10 +2,11 @@
 # Creation date and time: 12/11/22 3:57 PM
 
 print('hello\nworld')
-print('hello\tworld')
-print('helloooo\tworld')
+print('hello\tworld')  # \t 占了 3 个字符. 第一个 o 占了一个
+print('helloooo\tworld')  # 头 4 个 o 占满了 4 个字符, \t 占了 4 个字符,占满就重新开制表位,否则不重新开
 print('hello\rworld')  # world会覆盖hello
-print('hello\bworld')  # \b是推一个格
+print('hello\bworld')  # \b是退一个格
+print('hello\b')  # o被删除
 
 print('http:\\\\www.google.com')
 print('老师说：\'大家好\'')

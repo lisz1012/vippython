@@ -4,4 +4,4 @@ print(520)
 print(98.5)
 print(3+4)
 print(chr(0b100111001011000))  # 乘
-print(ord('乘'))
+print(ord('乘'))  # 20056
