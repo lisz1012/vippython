@@ -11,7 +11,7 @@ print(a == 1 or b < 2)
 print(a != 1 or b == 2)
 print(a != 1 or b != 2)
 print(a == 1)
-print(not(a == 1))
+print(not (a == 1))
 f = True
 print(not f)
 
@@ -21,3 +21,7 @@ print('w' in s)
 print('k' in s)
 print('hello' in s)
 print('k' not in s)
+print('---------')
+list1 = [1, 2, 3]
+print(1 in list1)
+print(4 in list1)

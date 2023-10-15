@@ -3,5 +3,6 @@
 
 a1 = input('a1 = ')
 a2 = input('a2 = ')
+print(a1 + a2)  # string 连接
 print(type(a1), type(a2))
 print(int(a1) + int(a2))
