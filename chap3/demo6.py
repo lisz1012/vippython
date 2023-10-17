@@ -21,7 +21,7 @@ print('w' in s)
 print('k' in s)
 print('hello' in s)
 print('k' not in s)
-print('---------')
+print('----------')
 list1 = [1, 2, 3]
 print(1 in list1)
 print(4 in list1)
