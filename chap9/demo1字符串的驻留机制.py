@@ -31,4 +31,8 @@ a = -1256
 b = -1256
 print(a is b)  # True
 
-
+# 强制驻留
+import sys
+a = sys.intern('hello')
+b = sys.intern('hello')
+print(a is b)  # True
