@@ -1,0 +1,5 @@
+{'id': '1002', 'name': '李思思', 'english': 100, 'python': 100, 'java': 100}
+{'id': '1003', 'name': '李大夫', 'english': 90, 'python': 92, 'java': 100}
+{'id': '1004', 'name': '郝亚尼', 'english': 1, 'python': 1, 'java': 2}
+{'id': '1005', 'name': '李小璐', 'english': 80, 'python': 50, 'java': 65}
+{'id': '1006', 'name': '李冰冰', 'english': 40, 'python': 71, 'java': 20}
